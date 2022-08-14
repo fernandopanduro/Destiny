@@ -38,6 +38,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *, *::before, *::after {
@@ -160,7 +161,7 @@ header nav ul .nav__link a {
 #presentacion {
     width: 100%;
     height: 50vh;
-    background-image: url(/src/pictures/avion-papel.jpg);
+    background-image: url(../src/pictures/avion-papel.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
