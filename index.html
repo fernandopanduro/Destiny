@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/icons/favicons/favicon-16x16.png" type="image/png">
+    <link rel="preload" href="CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="CSS/normalize.css">    
+    <link rel="preload" href="CSS/style.css" as="style">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Destiny</title>
+</head>
+<body>
+    <header>
+        <h2>Destiny</h2>
+        <nav id="nav-principal">
+            <ul>
+                <li class="nav__link"><a href="#presentacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color);"><path d="M5 22h14a2 2 0 0 0 2-2v-9a1 1 0 0 0-.29-.71l-8-8a1 1 0 0 0-1.41 0l-8 8A1 1 0 0 0 3 11v9a2 2 0 0 0 2 2zm5-2v-5h4v5zm-5-8.59 7-7 7 7V20h-3v-5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v5H5z"></path></svg>Inicio</a></li>
+                <li class="nav__link"><a href="#destinos"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color);"><circle cx="7.499" cy="9.5" r="1.5"></circle><path d="m10.499 14-1.5-2-3 4h12l-4.5-6z"></path><path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-16 14V6h16l.002 12H3.999z"></path></svg>Destinos</a></li>
+                <li class="nav__link"><a href="#reservas"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color);"><path d="M19 4h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm.002 16H5V8h14l.002 12z"></path><path d="m11 17.414 5.707-5.707-1.414-1.414L11 14.586l-2.293-2.293-1.414 1.414z"></path></svg>Reservas</a></li>
+            </ul>
+        </nav>
+        <button type="button" class="btn-contacto" style="display: none;"><a href="#contacto">Contacto</a></button>
+    </header>
+
+    <section id="presentacion">
+        <div>
+            <h1>Destiny</h1>
+            <p>Los lugares más pintorescos del mundo</p>
+            <button type="button" class="btn-contacto"><a href="#contacto">Contacto</a></button>
+        </div>
+
+    </section>
+
+    <main id="main">
+
+
+        <section id="destinos">
+
+            <div class="contenedor-subtitulos">
+                <h2>Destinos</h2>
+                <h3>Vivencias Asombrosas</h3>         
+            </div>
+            <div class="contenedor-destinos" style="--i:url(../src/pictures/pixabay.jpg);">
+                <div class="contenedor__imagen-destino">
+                    <h3>Mar</h3>
+                </div>
+            </div>
+
+            <div class="contenedor-destinos" style="--i:url(../src/pictures/templo-egipto.jpg);">
+                <div class="contenedor__imagen-destino">
+                    <h3>Desierto</h3>
+                </div>
+            </div>
+
+            <div class="contenedor-destinos" style="--i:url(../src/pictures/pareja-en-cascada.jpg);">
+                <div class="contenedor__imagen-destino">
+                    <h3>Jungla</h3>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="reservas" class="margin">
+
+            <div class="contenedor-subtitulos">
+                <h2>Reservas</h2>
+                <h3>Zonas Magicas</h3>
+            </div>
+            <div class="cards grid">
+
+                <div class="card">
+                    <div class="card__img" style=" --i: url(../src/pictures/maldives.jpg)">
+                    </div>
+                    <section class="card__informacion">
+                        <h3>Mazatlan</h3>
+                        <p>En su Centro Histórico, o Viejo Mazatlán, los sitios icónicos del siglo XIX incluyen el Teatro Ángela Peralta y la altísima basílica de la Inmaculada Concepción. El distrito moderno Zona Dorada es conocido por su vida nocturna.</p>
+                    </section>    
+                    <div class="card__valoracion">
+                    <p>4 dias / 5 noches</p>  
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg>                      
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img" style=" --i: url(../src/pictures/templo-egipto.jpg)">
+                    </div>
+                    <section class="card__informacion">
+                        <h3>Egipto</h3>
+                        <p>para conocer El Cairo son 3 días, de esta manera podrás visitar lugares imprescindibles como las pirámides de Giza, sus museos, la Ciudadela o el barrio Copto.</p>
+                    </section>    
+                    <div class="card__valoracion">
+                    <p>4 dias / 3 noches</p>   
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg>                      
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img" style=" --i: url(../src/pictures/pareja-globos.jpg)">
+                    </div><img src="" alt="">
+                    <section class="card__informacion">
+                        <h3>Prada</h3>
+                        <p>Ubicado en la zona de Malá Strana, el Monte Petřín forma parte del paisaje de esta hermosa zona de la capital checa. Es un excelente lugar desde donde admirar y fotografiar Praga</p>
+                    </section>    
+                    <div class="card__valoracion">
+                    <p>7 dias / 8 noches</p>   
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--primary-color)"><path d="M21.947 9.179a1.001 1.001 0 0 0-.868-.676l-5.701-.453-2.467-5.461a.998.998 0 0 0-1.822-.001L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.213 4.107-1.49 6.452a1 1 0 0 0 1.53 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082c.297-.268.406-.686.278-1.065z"></path></svg>                      
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="contacto" class="margin">
+
+            <div class="contenedor-subtitulos">
+                <h2>Contacto</h2>
+                <h3>Formulario</h3>
+            </div>
+
+            <form action="">
+                <label for="origen">Lugares <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgb(255, 255, 255);"><path d="M12 14c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2z"></path><path d="M11.42 21.814a.998.998 0 0 0 1.16 0C12.884 21.599 20.029 16.44 20 10c0-4.411-3.589-8-8-8S4 5.589 4 9.995c-.029 6.445 7.116 11.604 7.42 11.819zM12 4c3.309 0 6 2.691 6 6.005.021 4.438-4.388 8.423-6 9.73-1.611-1.308-6.021-5.294-6-9.735 0-3.309 2.691-6 6-6z"></path></svg></label>
+                <input type="text" name="origen" id="origen" placeholder="Origen" required>
+                <input type="text" name="origen" id="destino" placeholder="Destino" required>
+                <label for="fechas">Fechas <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgb(255, 255, 255);"><path d="M19 4h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm.002 16H5V8h14l.002 12z"></path><path d="m11 17.414 5.707-5.707-1.414-1.414L11 14.586l-2.293-2.293-1.414 1.414z"></path></svg></label>
+                <input type="date" name="" id="" placeholder="Ida" required>
+                <input type="date" name="" id="" placeholder="Regreso" required>
+                <label for="habitaciones">Estadia <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgb(255, 255, 255);"><path d="M20 9.557V3h-2v2H6V3H4v6.557C2.81 10.25 2 11.525 2 13v4a1 1 0 0 0 1 1h1v4h2v-4h12v4h2v-4h1a1 1 0 0 0 1-1v-4c0-1.475-.811-2.75-2-3.443zM18 7v2h-5V7h5zM6 7h5v2H6V7zm14 9H4v-3c0-1.103.897-2 2-2h12c1.103 0 2 .897 2 2v3z"></path></svg></label>
+                <input type="number" id="habitaciones" placeholder="Habitaciones" required>
+                <input type="button" value="Buscar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes-sociales">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--white)"><path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path></svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--white)"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: var(--white)"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"></path></svg></a>
+        </div>
+        <hr>
+        <p>Todos los Derechos Reservados a <b>Destiny</b> ©2022</p>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
